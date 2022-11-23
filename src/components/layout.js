@@ -72,6 +72,7 @@ const Layout = ({ children }) => {
               <option>Meeting room</option>
               <option>Creative space</option>
               <option>Media studio</option>
+              <option>Podcase lounge</option>
             </Select>
             {/* <Date type="datetime-local" /> */}
             <Submit type="submit">➞ Book now</Submit>

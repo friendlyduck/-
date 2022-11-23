@@ -77,6 +77,7 @@ const Logo = styled.img`
   grid-column: 2 / span 2;
   margin-top: 8vh;
   transition: all 0.24s ease;
+  max-width: 104px;
 
   @media (min-width: ${props => props.theme.breakpoints[1]}) {
     grid-column: 1 / span 1;
@@ -84,6 +85,7 @@ const Logo = styled.img`
     align-self: flex-end;
     justify-self: center;
     margin: 0 auto 4vh auto;
+    max-width: 100%;
   }
 `
 
